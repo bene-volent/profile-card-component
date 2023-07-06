@@ -53,7 +53,7 @@ body {
   min-height: 100dvh;
   background-color: hsl(185, 75%, 39%);
   background-image: url("./images/bg-pattern-top.svg"), url("./images/bg-pattern-bottom.svg");
-  background-position: calc(50% - var(--bg-circle-rad) / 2) calc(50% - var(--bg-circle-rad) / 2), calc(50% + var(--bg-circle-rad) / 2) calc(50% + var(--bg-circle-rad) / 2);
+  background-position: calc(50% - var(--bg-circle-rad) / 2) calc(30% - var(--bg-circle-rad) / 2), calc(50% + var(--bg-circle-rad) / 2) calc(70% + var(--bg-circle-rad) / 2);
   background-repeat: no-repeat;
   font-family: "Kumbh Sans", sans-serif;
   font-size: 18px;
