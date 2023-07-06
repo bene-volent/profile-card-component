@@ -49,18 +49,12 @@ body {
   display: grid;
   place-content: center;
   gap: 0.75em;
-
   min-height: 100vh;
   min-height: 100dvh;
-  
   background-color: hsl(185, 75%, 39%);
-  background-image: url("./images/bg-pattern-top.svg"), 
-                    url("./images/bg-pattern-bottom.svg");
-
-  background-position:  calc(50% - var(--bg-circle-rad) / 2) calc(50% - var(--bg-circle-rad) / 2),
-                        calc(50% + var(--bg-circle-rad) / 2) calc(50% + var(--bg-circle-rad) / 2);
+  background-image: url("./images/bg-pattern-top.svg"), url("./images/bg-pattern-bottom.svg");
+  background-position: calc(50% - var(--bg-circle-rad) / 2) calc(50% - var(--bg-circle-rad) / 2), calc(50% + var(--bg-circle-rad) / 2) calc(50% + var(--bg-circle-rad) / 2);
   background-repeat: no-repeat;
-  
   font-family: "Kumbh Sans", sans-serif;
   font-size: 18px;
 }
@@ -68,25 +62,19 @@ body {
 .user {
   width: 350px;
   aspect-ratio: 1/1.1;
-
   text-align: center;
-
   border-radius: 0.825em;
-  background-color: white;
-  
   overflow: hidden;
+  background-color: white;
 }
 .user::before {
-  display: block;
- 
   content: "";
- 
   height: 140px;
   width: 100%;
- 
   background-image: url("./images/bg-pattern-card.svg");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: 100% 100%;
+  display: block;
 }
 .user__image {
   --image-height:96px;
